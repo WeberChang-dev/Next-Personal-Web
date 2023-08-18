@@ -1,0 +1,126 @@
+.siteIcon {
+    height: clamp(2rem, 3vw, 3rem);
+    width: clamp(3.55rem, 5.33vw, 5.33rem);
+    position: relative;
+    z-index: 10;
+}
+
+.nav {
+    position: fixed;
+    background-color: #181D2A;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navLinksHide, .navLinksShow {
+    background-color: #181D2A;
+}
+
+.navUL {
+    display: flex;
+    flex-direction: row;
+    column-gap: 2rem;
+}
+
+.hamburgerToggle {
+    position: absolute;
+    width: 1.8rem;
+    height: 1.3rem;
+    top: 2rem;
+    right: 2rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    z-index: 150;
+}
+
+.bar1Off, .bar2Off {
+    height: 3px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: white;
+    transition: all 0.3s ease;
+}
+
+.bar3Off {
+    height: 3px;
+    border-radius: 10px;
+    background-color: white;
+    transition: all 0.3s ease;
+    width: 80%;
+}
+
+.bar1On {
+    height: 3px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: white;
+    transition: all 0.3s ease;
+    transform: rotate(-45deg) translate(-4.2px, 7px);
+}
+
+.bar2On {
+    transform: rotateX(90deg);
+}
+
+.bar3On {
+    height: 3px;
+    width: 80%;
+    border-radius: 10px;
+    background-color: white;
+    transition: all 0.3s ease;
+    transform: rotate(405deg) translate(-7.4px, -7px) scaleX(1.25);
+}
+
+.navLi {
+    display: flex;
+    justify-content: center;
+    padding: 0.4rem 0;
+}
+
+@media (max-width: 780px) {
+    .hamburgerToggle {
+        display: flex;
+    }
+    .hamburgerToggle:hover {
+        cursor: pointer;
+    }
+    .nav {
+        flex-direction: column;
+        align-items: flex-start;
+        transition: transform 0.5s ease-in;
+        padding-top: 2rem;
+    }
+    .navLinksHide {
+        width: 100vw;
+        display: flex;
+        position: absolute;
+        left: 0;
+        top: 3.5rem;
+        transition: transform 0.5s ease-in;
+        transform: translateY(-200%);
+    }
+    .navUL {
+        flex-direction: column;
+        width: 100vw;
+    }
+    .navLi {
+        width: 100vw;
+        display: flex;
+        padding: 1.5rem 0;
+        justify-content: center;
+    }
+    .navLinksShow {
+        display: flex;
+        width: 100vw;
+        left: 0;
+        position: absolute;
+        transition: transform 0.5s ease-in;
+        transform: translateY(0%);
+    }
+}

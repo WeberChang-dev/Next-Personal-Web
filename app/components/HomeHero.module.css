@@ -1,0 +1,24 @@
+.topicText {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+        Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: clamp(3rem, 7vw + 1rem, 6rem);
+    font-weight: bold;
+    color: white;
+    order: 1;
+}
+
+.topicTextSub {
+    color: white;
+    font-family: "Futura ", Trebuchet MS, Arial, sans-serif;
+    font-size: clamp(1rem, 2.2vw, 2rem);
+    padding-left: 0.2rem;
+    z-index: -1;
+}
+
+.homeTopicImg {
+    order: 2;
+    width: clamp(17.5rem, 40vw + 10rem, 40rem);
+    height: clamp(17.5rem, 40vw + 10rem, 40rem);
+    position: relative;
+    z-index: -1;
+}

@@ -1,0 +1,29 @@
+.h2 {
+    color: rgb(185, 208, 233);
+    font-weight: bold;
+    font-family: "Futura ", Trebuchet MS, Arial, sans-serif;
+    font-size: clamp(2.6rem, 5vw, 3.4rem);
+    margin-bottom: 2rem;
+    line-height: 1.5ch;
+}
+
+.text {
+    color: white;
+    font-family: "Futura ", Trebuchet MS, Arial, sans-serif;
+    font-size: clamp(1.2rem, 2vw, 1.8rem);
+    max-width: 45ch;
+    line-height: 150%;
+    order: 1;
+}
+
+.imageContainer {
+    position: relative;
+    width: clamp(15rem, 40vw + 10rem, 40rem);
+    height: clamp(15rem, 40vw + 10rem, 40rem);
+}
+
+@media (max-width: 1394px) {
+    .imageContainer {
+        order: 2;
+    }
+}
