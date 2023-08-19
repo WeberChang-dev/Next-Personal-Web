@@ -13,7 +13,7 @@ interface Repo  {
 
 const getRepos = async () => {
     const res = await fetch('https://gh-pinned-repos.egoist.dev/?username=WeberChang-dev', {
-        next: { revalidate: 10 }
+        cache: 'no-store'
     })
     const repos = await res.json()
     
