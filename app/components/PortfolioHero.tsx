@@ -33,12 +33,12 @@ export default function PortfolioHero() {
             </div>
             <div className={style.imgContainer} ref={imgContainerRef}>
                 <Image 
-                    src='/../public/Images/portfolio-file.png'
+                    src='/static/images/portfolio-file.png'
                     alt='portfolio'
                     fill={true}
                 />
                 <Image 
-                    src='/../public/Images/magnify_glass.png'
+                    src='/static/images/magnify_glass.png'
                     alt='magnifying glass'
                     fill={true}
                     className='magnifyingGlass'

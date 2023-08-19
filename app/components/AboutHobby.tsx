@@ -37,13 +37,13 @@ export default function AboutHobby() {
         </div>
         <div className={style.imageContainer} ref={imgRef}>
             <Image 
-                src='/../public/Images/heart.png'
+                src='/static/images/heart.png'
                 alt='heart'
                 fill={true}
                 className="heart"
             />
             <Image 
-                src='/../public/Images/thing_I_like.png'
+                src='/static/images/thing_I_like.png'
                 alt='hobby'
                 fill={true}
             />

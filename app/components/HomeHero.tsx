@@ -11,12 +11,12 @@ export default function HomeTopic() {
         </div>
         <div className={style.homeTopicImg}>
           <Image 
-            src='/../public/Images/neonlight.png'
+            src='/static/images/neonlight.png'
             alt='neon light'
             fill={true}
           />
           <Image 
-            src='/../public/animation/homepagegif.gif'
+            src='/static/images/homepagegif.gif'
             alt="Literally me"
             fill={true}
           />

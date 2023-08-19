@@ -50,25 +50,25 @@ export default function AboutCoding() {
         <div className='min-h-[calc(100vh-7rem)] min-w-full flex justify-around items-center flex-wrap p-12 z-1'>
             <div className={style.imageContainer} ref={imgContainerRef}>
                 <Image
-                    src='/../public/Images/screen.png'
+                    src='/static/images/screen.png'
                     alt='screen'
                     fill={true} 
                     className='screen'
                 />
                 <Image
-                    src='/../public/Images/keyboard.png'
+                    src='/static/images/keyboard.png'
                     alt='keyboard'
                     fill={true} 
                     className='keyboard'
                 />
                 <Image
-                    src='/../public/Images/window1.png'
+                    src='/static/images/window1.png'
                     alt='window1'
                     fill={true} 
                     className='window1'
                 />
                 <Image
-                    src='/../public/Images/window2.png'
+                    src='/static/images/window2.png'
                     alt='window2'
                     fill={true} 
                     className='window2'

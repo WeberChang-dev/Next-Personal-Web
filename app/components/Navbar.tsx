@@ -44,7 +44,7 @@ export default function Navbar() {
     <nav className={style.nav}>
         <div className={style.siteIcon}>
             <Image 
-                src="/../public/Images/nav_icon.png"
+                src="/static/images/nav_icon.png"
                 fill={true}
                 alt="Website Icon"
             />

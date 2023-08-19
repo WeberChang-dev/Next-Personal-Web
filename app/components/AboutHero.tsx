@@ -13,7 +13,7 @@ export default function AboutHero() {
             <iframe className={style.phone} src="https://rive.app/s/5uDiAeExIkWpGHPXoqpOJg/embed"></iframe>
                 <Image 
                     className='absolute'
-                    src='/../public/Images/about_background_ver2.png'
+                    src='/static/images/about_background_ver2.png'
                     alt='background'
                     fill={true} 
                 />

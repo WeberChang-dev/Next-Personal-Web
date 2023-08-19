@@ -31,18 +31,18 @@ export default function AboutResolution() {
     <div className='min-h-[calc(100vh-7rem)] min-w-full flex justify-around items-center flex-wrap p-12 z-1'>
         <div className={style.imageContainer} ref={imgContainerRef}>
             <Image
-                src='/../public/Images/New_year_resolution.png'
+                src='/static/images/New_year_resolution.png'
                 alt='resolution'
                 fill={true}
                 />
             <Image
-                src='/../public/Images/big_resolution_bubble.png'
+                src='/static/images/big_resolution_bubble.png'
                 alt='big bubble'
                 fill={true}
                 className='bigBubble'
                 />
             <Image
-                src='/../public/Images/smol_resolution_bubble.png'
+                src='/static/images/smol_resolution_bubble.png'
                 alt='smol bubble'
                 fill={true}
                 className='smolBubble'

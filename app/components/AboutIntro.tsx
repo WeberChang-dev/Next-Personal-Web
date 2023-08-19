@@ -38,17 +38,17 @@ export default function AboutIntro() {
         </div>
         <div className={style.imageContainer} ref={imgRef}>
             <Image 
-                src='/../public/Images/image-folder-background.png'
+                src='/static/images/image-folder-background.png'
                 alt='background'
                 fill={true}
             />
             <Image 
-                src='/../public/Images/shadow.png'
+                src='/static/images/shadow.png'
                 alt='shadow'
                 fill={true}
             />
             <Image 
-            src='/../public/Images/personal-image.png'
+            src='/static/images/personal-image.png'
             alt='personal image'
             fill={true}
             className='personalPic'
