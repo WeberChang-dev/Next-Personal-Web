@@ -7,7 +7,7 @@ export default function AboutHero() {
         <div className={style.topic}>
             <div>
                 <h1 className={style.h1}>About Me</h1>
-                <p className={style.topicTextSub}>I'm a simple person tho</p>
+                <p className={style.topicTextSub}>{"I'm a simple person tho"}</p>
             </div>
             <div className={style.imageDiv}>
             <iframe className={style.phone} src="https://rive.app/s/5uDiAeExIkWpGHPXoqpOJg/embed"></iframe>

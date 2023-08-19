@@ -29,7 +29,7 @@ export default function PortfolioHero() {
         <div className="min-h-[calc(100vh-7rem)] min-w-full flex justify-evenly items-center flex-wrap py-1.5 px-0.5 z-1">
             <div>
                 <h1 className={style.h1}>My Portfolio</h1>
-                <p className={style.topicTextSub}>Something cool I've done</p>
+                <p className={style.topicTextSub}>{"Something cool I've done"}</p>
             </div>
             <div className={style.imgContainer} ref={imgContainerRef}>
                 <Image 

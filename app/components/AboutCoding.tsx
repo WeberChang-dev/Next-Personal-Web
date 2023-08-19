@@ -76,7 +76,7 @@ export default function AboutCoding() {
             </div>
             <div>
                 <h2 className={style.h2}>Me and Programming!</h2>
-                <p className={style.text}>Programming is something I've been interested in since high school and what I major in college. Still fascinated with what I have and haven't learned about it.</p>
+                <p className={style.text}>{"Programming is something I've been interested in since high school and what I major in college. Still fascinated with what I have and haven't learned about it."}</p>
             </div>
         </div>
     )

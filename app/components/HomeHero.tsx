@@ -6,7 +6,7 @@ export default function HomeTopic() {
   return (
     <div className="min-h-[calc(100vh-7rem)] min-w-full flex justify-evenly items-center flex-wrap py-1.5 px-0.5 z-1">
         <div>
-          <h1 className={style.topicText}>Hi I'm Weber</h1>
+          <h1 className={style.topicText}>{"Hi I'm Weber"}</h1>
           <p className={style.topicTextSub}>Welcome to my Mojo Dojo Casa House</p>
         </div>
         <div className={style.homeTopicImg}>

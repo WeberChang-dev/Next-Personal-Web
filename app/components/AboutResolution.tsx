@@ -49,7 +49,7 @@ export default function AboutResolution() {
             />
         </div>
         <div>
-            <h2 className={style.h2}>This Year's Resolution</h2>
+            <h2 className={style.h2}>{"This Year's Resolution"}</h2>
             <ul className={style.text}>
                 <li>Expert on CodeForces</li>
                 <li>Build A Blog with NextJS</li>

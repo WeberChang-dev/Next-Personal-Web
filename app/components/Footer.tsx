@@ -24,7 +24,7 @@ export default function Footer() {
         <h3 className={style.topic}>Find me on</h3>
         <ul className={style.ul}>
             {footerList.map(item => (
-                <li className={style.footerItem}>
+                <li className={style.footerItem} key={item.name}>
                     <FontAwesomeIcon icon={item.icon} style={{color: "#ffffff"}} />
                     <a className='pl-1.5' href={item.href}>{item.name}</a>
                 </li>

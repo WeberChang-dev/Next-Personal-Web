@@ -33,7 +33,7 @@ export default function AboutHobby() {
     <div className='min-h-[calc(100vh-7rem)] min-w-full flex justify-around items-center flex-wrap p-12 z-1'>
         <div>
             <h2 className={style.h2}>My Hobbies</h2>
-            <p className={style.text}>Aside from coding, I'm also into movies, music, badminton, and ACG culture. Just a nerd overall.</p>
+            <p className={style.text}>{"Aside from coding, I'm also into movies, music, badminton, and ACG culture. Just a nerd overall."}</p>
         </div>
         <div className={style.imageContainer} ref={imgRef}>
             <Image 

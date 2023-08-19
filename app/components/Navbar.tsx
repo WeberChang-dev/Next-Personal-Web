@@ -61,6 +61,7 @@ export default function Navbar() {
                         onMouseEnter={handleEnter(navItem.text)} 
                         onMouseLeave={handleLeave(navItem.text)} 
                         className={style.navLi}
+                        key={navItem.text}
                     >
                         <FontAwesomeIcon icon={navItem.icon} style={{margin: "auto 0", transform: `translateX(${hover[navItem.text] ? "0.4rem" : "1.4rem"})`, color: "#B9D0E9", fontSize: '1.5rem', opacity: Number(hover[navItem.text]), transition: 'ease-in-out 0.3s'}} />
                         <Link legacyBehavior className="relative px-4 " href={navItem.href}>

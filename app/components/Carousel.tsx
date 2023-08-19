@@ -37,7 +37,7 @@ export default function MyCarousel({ repos }: reposObj) {
         </div>
       )}
     >
-        {repos.map(repo => <Card repo={repo}/>)}
+        {repos.map(repo => <Card repo={repo} key={repo.repo}/>)}
     </Carousel>
   )
 }
