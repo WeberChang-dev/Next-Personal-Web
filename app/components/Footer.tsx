@@ -10,7 +10,7 @@ type footerItem = {
 }
 
 const footerList: footerItem[] = [
-    {name: 'GitHub', href: 'https://github.com/LittleCodingLoser', icon: faGithub},
+    {name: 'GitHub', href: 'https://github.com/WeberChang-dev', icon: faGithub},
     {name: 'Stack Overflow', href: 'https://stackoverflow.com/users/16480529/weber-chang', icon: faStackOverflow},
     {name: 'Instagram', href: 'https://www.instagram.com/weber_eating_sleeping/', icon: faInstagram},
     {name: 'Twitter', href: 'https://twitter.com/WeberChang10', icon: faTwitter},
