@@ -10,7 +10,7 @@ export const Chrono = dynamic(() => import('react-chrono').then(lib => lib.Chron
 
 const items = [{
   title: "2024 Summer",
-  cardTitle: "Game Dev at 2024 NTU CSIE Challenge",
+  cardTitle: "Game Dev at 2024 NTU CSIE Camp Challenge",
   cardSubtitle: "Python Multi-player game for participants to play with automatic program",
   media: {
     type: "IMAGE",
