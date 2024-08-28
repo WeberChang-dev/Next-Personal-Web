@@ -19,7 +19,6 @@ type ItemState = {
 
 const NavList: NavItem[] = [
     {text: 'Home', href: '/', icon: faHouse},
-    {text: 'About', href: '/About', icon: faUser},
     {text: 'Portfolio', href: '/Portfolio', icon: faFileCode},
 ]
 

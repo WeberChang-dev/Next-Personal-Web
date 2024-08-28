@@ -34,7 +34,7 @@ export default function AboutIntro() {
     <div className="min-h-[calc(100vh-7rem)] min-w-full flex justify-around items-center flex-wrap p-12 z-1">
         <div>
             <h2 className={style.h2}>Who Am I</h2>
-            <p className={style.text}>{"I'm a freshman studying CS in National Taiwan University, always trying to stay chill"}</p>
+            <p className={style.text}>{"I'm a sophomore studying CS in National Taiwan University, always trying to stay chill"}</p>
         </div>
         <div className={style.imageContainer} ref={imgRef}>
             <Image 

@@ -1,6 +1,6 @@
 import React from 'react'
+import { faFacebook, faGithub, faLinkedin, faInstagram, faStackOverflow, IconDefinition } from "@fortawesome/free-brands-svg-icons"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebook, faGithub, faTwitter, faInstagram, faStackOverflow, IconDefinition } from "@fortawesome/free-brands-svg-icons"
 import style from './Footer.module.css';
 
 type footerItem = {
@@ -11,9 +11,9 @@ type footerItem = {
 
 const footerList: footerItem[] = [
     {name: 'GitHub', href: 'https://github.com/WeberChang-dev', icon: faGithub},
+    {name: 'Linkedin', href: 'https://www.linkedin.com/in/wei-cheng-chang-b96916320/', icon: faLinkedin},
     {name: 'Stack Overflow', href: 'https://stackoverflow.com/users/16480529/weber-chang', icon: faStackOverflow},
     {name: 'Instagram', href: 'https://www.instagram.com/weber_eating_sleeping/', icon: faInstagram},
-    {name: 'Twitter', href: 'https://twitter.com/WeberChang10', icon: faTwitter},
     {name: 'Facebook', href: 'https://www.facebook.com/profile.php?id=100004070266791', icon: faFacebook}
 ]
 
