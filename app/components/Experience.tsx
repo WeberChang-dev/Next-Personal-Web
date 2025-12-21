@@ -6,7 +6,7 @@ const items = [{
   title: "Associate Software Developer Intern @ Google Taiwan",
   date: "Summer 2025",
   subtitle: "Optimized Pixel Engineering Testing workflow with test triggering and result propagating.",
-  imageUrl: '/static/images/STEP.jpg'
+  imageUrl: '/static/images/step.jpg'
 }, {
   title: "Game Dev at 2024 NTU CSIE Camp Challenge",
   date: "Summer 2024",
