@@ -51,6 +51,7 @@ export default function Experience() {
             }}
             mediaSettings={{ fit: 'cover' }}
             disableToolbar
+            hideControls
           />
         </div>
     </div>
