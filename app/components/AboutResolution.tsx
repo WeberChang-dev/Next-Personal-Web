@@ -51,10 +51,11 @@ export default function AboutResolution() {
         <div>
             <h2 className={style.h2}>{"This Year's Resolution"}</h2>
             <ul className={style.text}>
-                <li>Do LeetCode Daily Challenges Consistently</li>
-                <li>Land a Summer Internship</li>
-                <li>Apply for DSA Teaching Assistant</li>
-                <li>Take ML and Cyber Security Courses</li>
+                <li>Research on Convex Optimization</li>
+                <li>Land Google SWE Internship</li>
+                <li>Apply for Exchange Student Program</li>
+                <li>Take Quantum Computing Courses</li>
+                <li>Build an online judge for DSA course</li>
             </ul>
         </div>
     </div>

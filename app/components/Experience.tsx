@@ -9,6 +9,17 @@ export const Chrono = dynamic(() => import('react-chrono').then(lib => lib.Chron
 }) as typeof ChronoType
 
 const items = [{
+  title: "2025 Summer",
+  cardTitle: "Associate Software Developer Intern @ Google Taiwan",
+  cardSubtitle: "Optimize Pixel Enginneering Tools workflow including test triggering and result reporting",
+  media: {
+    type: "IMAGE",
+    name: "gooooooogle",
+    source: {
+      url: '/static/images/STEP.jpg'
+    }
+  }
+}, {
   title: "2024 Summer",
   cardTitle: "Game Dev at 2024 NTU CSIE Camp Challenge",
   cardSubtitle: "Python Multi-player game for participants to play with automatic program",
@@ -33,8 +44,8 @@ export default function Experience() {
               primary: 'white',
               secondary: "#121621",
               cardBgColor: '#121621',
-              titleColor: 'red',
-              titleColorActive: 'white',
+              titleColor: 'white',
+              titleColorActive: '#B9D0E9',
               cardSubtitleColor: 'white',
               cardTitleColor: '#B9D0E9'
             }}
